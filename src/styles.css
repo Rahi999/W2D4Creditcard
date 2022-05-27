@@ -1,0 +1,104 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.date{
+  display: flex;
+  justify-content: space-between;
+ width: 300px;
+ margin: auto;
+}
+.month{
+  margin-left:70px;
+  width: 250px;
+}
+.cvv{
+   width: 100px;
+   margin-left: 10px;
+}
+h5{
+  margin-left:-250px
+}
+input{
+  border: 0px;
+  height: 30px;
+  width: 300px;
+  border-color: maroon;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.line{
+  border: 1px solid pink;
+  width: 300px;
+  margin: auto;
+}
+.pay{
+  width: 130px;
+  background-color: #f46;
+  border-radius: 8px;
+ color: white;
+}
+.form{
+  height: 900px;
+  padding: 10px;
+  width: 500px;
+  margin: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.amount{
+  color: #f46;
+  width: 150px;
+}
+button{
+  width: 130px;
+  background-color: #f46;
+  border-radius: 8px;
+ color: white;
+ height: 30px;
+ border: 0px;
+ font-size: 20px;
+ margin-top: 50px;
+}
+.card{
+  height: 250px;
+  width: 400px;
+  margin: auto;
+  margin-top: 30px;
+  background-color: #f46;
+  border-radius: 15px;
+}
+.card>h1{
+  color: white;
+  margin-left: 220px;
+
+}
+
+.number{
+  margin-top: 20px;
+  font-size: 30px;
+  letter-spacing:5px;
+  color: white;
+}
+.details{
+  display: flex;
+  font-size: 20px;
+ justify-content: space-around;
+  color: white;
+}
+.chip{
+height: 30px;
+width: 50px;
+border-radius: 2px;
+background-color: #eda;
+margin-left: 30px;
+margin-top: -10px;
+}
+.dummy{
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  margin-top:30px
+}
+.dummy>h5{
+  margin: auto;
+}
